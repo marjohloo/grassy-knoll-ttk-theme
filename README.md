@@ -1,3 +1,8 @@
+# grassy-knoll-ttk-theme
+
+A theme for ttk based on [Sun-Valley-ttk-theme](https://github.com/rdbende/Sun-Valley-ttk-theme) by 
+[rdbende](https://github.com/rdbende).
+
 # Sun-Valley-ttk-theme
 A stunning theme for ttk based on Microsoft's Sun Valley visual style
 
