@@ -4,11 +4,11 @@
 
 package require Tk 8.6
 
-namespace eval ttk::theme::sun-valley-dark {
+namespace eval ttk::theme::grassy-knoll-dark {
     variable version 1.0
-    package provide ttk::theme::sun-valley-dark $version
+    package provide ttk::theme::grassy-knoll-dark $version
 
-    ttk::style theme create sun-valley-dark -parent clam -settings {
+    ttk::style theme create grassy-knoll-dark -parent clam -settings {
         proc load_images {imgdir} {
             variable images
             foreach file [glob -directory $imgdir *.png] {

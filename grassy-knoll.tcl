@@ -1,13 +1,13 @@
 # Copyright © 2021 rdbende <rdbende@gmail.com>
 
-source [file join [file dirname [info script]] theme light.tcl]
-source [file join [file dirname [info script]] theme dark.tcl]
+source [file join [file dirname [info script]] grassy-knoll-theme light.tcl]
+source [file join [file dirname [info script]] grassy-knoll-theme dark.tcl]
 
 option add *tearOff 0
 
 proc set_theme {mode} {
 	if {$mode == "dark"} {
-		ttk::style theme use "sun-valley-dark"
+		ttk::style theme use "grassy-knoll-dark"
 
 		array set colors {
 		    -fg             "#ffffff"
@@ -47,7 +47,7 @@ proc set_theme {mode} {
         option add *Menu.background #2f2f2f
     
 	} elseif {$mode == "light"} {
-		ttk::style theme use "sun-valley-light"
+		ttk::style theme use "grassy-knoll-light"
 
 		array set colors {
 		    -fg             "#202020"
