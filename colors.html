@@ -1,42 +1,69 @@
+<!DOCTYPE html>
 <html>
+    <head>
+        <title>grassy-knoll-ttk-theme colors</title>
+        <style>
+            body { font-family: Segoe UI, Helvetica, sans-serif; }
+            table, tr, th, td { text-align: left; vertical-align: top; border: none; border-collapse: collapse; padding: 2pt; }
+            .dark { color: #FFFFFF; background-color: #000000; }
+            .light { color: #000000; background-color: #FFFFFF; }
+            .whitefg { color: #FFFFFF; }
+            .blackfg { color: #000000; }
+            .left { text-align: left; }
+            .right { text-align: right; }
+            .center { text-align: center; }
+        </style>
+    </head>
     <body>
-        <table>
-            <tr>
-                <td>dark/button-accent-rest.png</td>
-                <td bgcolor="#1C1C1C">#1C1C1C</td>
-                <td><img src="theme/dark/button-accent-rest.png" /></td>
-                <td bgcolor="#57C8FF">#57C8FF</td>
-            </tr>
-            <tr>
-                <td>dark/check-rest.png</td>
-                <td bgcolor="#1C1C1C">#1C1C1C</td>
-                <td><img src="theme/dark/check-rest.png" /></td>
-                <td bgcolor="#57C8FF">#57C8FF</td>
-            </tr>     
-            <tr>
-                <td>dark/check-tri-rest.png</td>
-                <td bgcolor="#1C1C1C">#1C1C1C</td>
-                <td><img src="theme/dark/check-tri-rest.png" /></td>
-                <td bgcolor="#57C8FF">#57C8FF</td>
-            </tr>           
-            <tr>
-                <td>dark/radio-rest.png</td>
-                <td bgcolor="#1C1C1C">#1C1C1C</td>
-                <td><img src="theme/dark/radio-rest.png" /></td>
-                <td bgcolor="#57C8FF">#57C8FF</td>
-            </tr>      
-            <tr>
-                <td>dark/scale-thumb-rest.png</td>
-                <td bgcolor="#1C1C1C">#1C1C1C</td>
-                <td><img src="theme/dark/scale-thumb-rest.png" /></td>
-                <td bgcolor="#57C8FF">#57C8FF</td>
-            </tr>                    
-            <tr>
-                <td>dark/switch-on-rest.png</td>
-                <td bgcolor="#1C1C1C">#1C1C1C</td>
-                <td><img src="theme/dark/switch-on-rest.png" /></td>
-                <td bgcolor="#57C8FF">#57C8FF</td>
-            </tr>             
-        </table>
+        <div class="dark">
+            <table>
+                <tr>
+                    <th>File</th>
+                    <th>Image</th>
+                    <th>Background</th>
+                    <th>Foreground</th>
+                    <th>Detail</th>
+                    <th>Notes</th>
+                </tr>
+                <tr>
+                    <td>dark/button-accent-rest.png</td>
+                    <td class="center"><img src="theme/dark/button-accent-rest.png" /></td>
+                    <td bgcolor="#1C1C1C">#1C1C1C</td>
+                    <td bgcolor="#57C8FF" class="blackfg">#57C8FF</td>
+                </tr>
+                <tr>
+                    <td>dark/check-rest.png</td>
+                    <td class="center"><img src="theme/dark/check-rest.png" /></td>
+                    <td bgcolor="#1C1C1C">#1C1C1C</td>
+                    <td bgcolor="#57C8FF" class="blackfg">#57C8FF</td>
+                </tr>
+                <tr>
+                    <td>dark/check-tri-rest.png</td>
+                    <td class="center"><img src="theme/dark/check-tri-rest.png" /></td>
+                    <td bgcolor="#1C1C1C">#1C1C1C</td>
+                    <td bgcolor="#57C8FF" class="blackfg">#57C8FF</td>
+                </tr>
+                <tr>
+                    <td>dark/radio-rest.png</td>
+                    <td class="center"><img src="theme/dark/radio-rest.png" /></td>
+                    <td bgcolor="#1C1C1C">#1C1C1C, HSV(0, 0, 10)</td>
+                    <td bgcolor="#57C8FF" class="blackfg">#57C8FF, HSV(199, 65, 100)</td>
+                    <td bgcolor="#000000">interior: #000000, HSV(0, 0, 0)</td>
+                    <td>circle=20x20, line=4, interior=12</td>
+                </tr>
+                <tr>
+                    <td>dark/scale-thumb-rest.png</td>
+                    <td class="center"><img src="theme/dark/scale-thumb-rest.png" /></td>
+                    <td bgcolor="#1C1C1C">#1C1C1C</td>
+                    <td bgcolor="#57C8FF" class="blackfg">#57C8FF</td>
+                </tr>
+                <tr>
+                    <td>dark/switch-on-rest.png</td>
+                    <td class="center"><img src="theme/dark/switch-on-rest.png" /></td>
+                    <td bgcolor="#1C1C1C">#1C1C1C</td>
+                    <td bgcolor="#57C8FF" class="blackfg">#57C8FF</td>
+                </tr>
+            </table>
+        </div>
     </body>
 </html>
